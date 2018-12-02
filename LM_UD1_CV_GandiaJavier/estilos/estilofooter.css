@@ -1,0 +1,27 @@
+footer{
+	margin-top:100px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+footer h1
+{
+	font-size: 100%;
+	text-align: center;
+	width:100%;
+}
+#subir
+{
+  background: none;
+  display: none;
+  border: 0px;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 99;
+}
+#subir:hover {
+  background-color: rgba(255, 255, 255, 0);
+}

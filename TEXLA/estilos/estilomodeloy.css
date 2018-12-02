@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-align:  justify;
+}
+main{
+	margin: auto;
+	margin-bottom: 5%;
+}
+h1{
+	font-family: impact;
+	color:#2DC874;
+	text-align: center;
+	font-size: 40px;
+}
+h2{
+	font-family: impact;
+	color:#2DC874;
+	text-align: center;
+	font-size: 30px;
+}
+h3{
+	font-family: impact;
+	color:#2DC874;
+	text-align: center;
+}
+h4{
+	font-family: impact;
+}
+.sec0 img {
+	margin-top: 100px;
+	height: 100%;
+	width: 100%;
+}
+.sec1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	max-width: 1060px;
+	position: relative;
+	width:100%;
+	text-align:center;
+}
+.sec2{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1060px;
+	position: relative;
+	width:100%;
+	text-align: center;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.iluminacion{
+	display: flex;
+}
+.biologicas{
+	display:flex;
+}
+.sec3{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.texto3{
+	display:flex;
+}
+.video1{
+	text-align: center;
+	margin: auto;
+	}
+.sec4{
+	text-align: center;
+	display: flex;
+	margin-bottom: 100px;
+}
+.sec5{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	}
+.video{
+	margin: auto;
+}
+.hardware{
+	text-align: center;
+	margin: auto;
+}
+.software{
+	display:block;
+	text-align: center;
+	margin-left: 100px;
+	margin-right:100px;
+	margin-bottom:100px;
+}
+.Seguridad{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1060px;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	height: 85%;
+}
+.sec8{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1060px;
+	position: relative;
+	width:100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.img6{
+	max-height: 60%;
+	max-width: 100%;
+}
+.NuevoConcepto{
+	margin: auto;
+}
+.pantalla{
+	margin-top: 100px;
+	text-align: center;
+	margin: auto;;
+}
+.sec11{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center
+}
+.sec11 .titulocaracteristicas{
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 5px;
+}
+.medidas{
+	width: 35%;
+	
+}
+.caracteristicas{
+	width: 30%
+}

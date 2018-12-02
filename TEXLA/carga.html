@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Carga</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilonavbar.css">
+	<link rel="stylesheet" type="text/css" href="estilos/estilocarga.css">
+	<link rel="stylesheet" type="text/css" href="estilos/estilofooter.css">
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<a href="index.html" class="active"><img src="imagenes/logo.png" alt="Logo"></a>
+		</div>
+		<ul>
+			<li><a href="modeloy.html">Modelo Y</a></li>
+			<li><a href="modelox.html">Modelo X</a></li>
+			<li><a href="carga.html">¿Donde cargar su Texla?</a></li>
+			<li><a href="quiensomos.html">Quienes somos</a></li>
+		</ul>
+	</nav>
+	<button onclick="topFunction()" id="subir" title="Ir arriba"><img src="imagenes/top1.png" alt="ir arriba"></button>
+	<section class="sec0">
+		<img src="imagenes/tesla-fotocontacto.jpg" alt="foto de contacto">
+	</section>
+	
+	<section class="sec1">
+		<h1>Cargue en cualquier lugar</h1>
+		<p>Su vehículo Texla se puede cargar en cualquier lugar, con equipos 
+			<br>estándar y opciones prácticas, 
+			<br>incluso nuestras redes de carga mundiales.
+		</p>
+	</section>
+	
+	<section class="sec2">
+		<img src="imagenes/fotodecarga2.jpg" alt="foto de carga dos">
+	</section>
+	
+	<section class="sec3">
+		<h1>Estacionamiento</h1>
+		<p>Cargue su vehículo donde estacione habitualmente: en casa por la noche,  
+			<br>en el trabajo por el día o en cualquier lugar de la ciudad. 
+		</p>
+	</section>
+	
+	<section class="sec4">
+		<iframe src="https://player.vimeo.com/video/273596800?player_id=273596800&amp;player_id=273596800"  width="1280" height="720"   allowfullscreen="">
+		</iframe>
+	</section>
+	
+	<section class="sec5">
+		<h1>En carretera</h1>
+		<p>Pare en un Supercargador para tomarse un descanso. Recorrer largas  
+			<br>distancias es fácil gracias al acceso a la red de carga más rápida del  
+			<br>mundo.
+		</p>
+	</section>
+	
+	<section class="sec6">
+		<img src="imagenes/tesla-fotocarga3.jpg" alt="otra foto cargandose">
+	</section>
+	
+	<section class="sec7">
+		<div class="llegada">
+			<h1>A su llegada</h1>
+			<p>Recargue en su destino cuando esté fuera de casa gracias a las prácticas   
+			 ubicaciones de carga en hoteles, restaurantes y centros comerciales.  
+			</p>
+		</div>
+		<div class="img1">
+		<img src="imagenes/fotomapa.jpg" alt="foto de un mapa" >
+		</div>
+	</section>
+	
+	<section class="sec8">
+		<div class="img2">
+			<img src="imagenes/aplicacionfoto.jpg" alt="foto de la aplicacion" >	
+		</div>
+		<div class="ir">
+			<h1>Ir a cualquier lugar</h1>
+			<p>Mantenga su vehículo cargado en cualquier lugar gracias al acceso a nuestras redes de carga mundiales.   
+				Explore una ruta, y le indicaremos las ubicaciones óptimas para recargar el vehículo por el camino y en su destino.  
+			</p>
+		</div>	
+	</section>
+	
+	<footer>
+		<div><p> TEXLA ©|Daniel Domínguez    Daniel Vera     Javier Gandia   David García </p></div>
+	</footer>
+	<script>
+// cuando baja la pagina 250px aparece el boton
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+				document.getElementById("subir").style.display = "block";
+			} else {
+				document.getElementById("subir").style.display = "none";
+			}
+		}
+
+// cuando se pulsa el boton, hace el scroll hacia arriba
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+	
+</body>
+</html>

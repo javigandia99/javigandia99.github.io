@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>¿QUIEN SOMOS?</title>
+  <link rel="stylesheet" type="text/css" href="estilos/estilonavbar.css">
+  <link rel="stylesheet" type="text/css" href="estilos/estilofooter.css">
+   <link rel="stylesheet" type="text/css" href="estilos/estilocontacto.css">
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<a href="index.html" class="active"><img src="imagenes/logo.png" alt="Logo"></a>
+		</div>
+		<ul>
+			<li><a href="modeloy.html">MODELO Y</a></li>
+			<li><a href="modelox.html">MODELO X</a></li>
+			<li><a href="carga.html">¿Donde cargar su Texla?</a></li>
+			<li><a href="quiensomos.html">QUIENES SOMOS</a></li>
+		</ul>
+	</nav>
+	<button onclick="topFunction()" id="subir" title="Ir arriba"><img src="imagenes/top1.png" alt="ir arriba"></button>
+	<section class="sec1">
+	<div class="quiensomos">
+		<h1>¿QUIEN SOMOS?</h1>
+			<p>	Somos una compañía española ubicada en Madrid,que diseña, fabrica y vende coches eléctricos, como el Model S o el Model 3, componentes para la propulsión de vehículos eléctricos y baterías 	domésticas y a gran escala. También proporciona componentes de propulsión eléctrica, incluyendo paquetes de baterías de iones de litio, a otros fabricantes de automóviles. <br>
+				Nuestro equipo esta compuesto por <strong>David García, Javier Gandia, Daniel Vera y Daniel Domínguez, pertenecientes al Grupo X</strong>.
+			</p>
+	</div>
+	<div class="fondo">		
+			<img src="imagenes/fondo.jpg" alt="Imagen coche">		
+	</div>			
+	</section>
+	<section class="historia">	
+		<div class="tesla">
+			<h2>HISTORIA</h2>
+			<p>En 1999 nace <strong>TEXLA </strong> dentro del grupo, y, desde el primer momento,
+				se aposto por el canal online como nuestro principal foco de negocio. 
+				Algo que en aquellos años era todavía difícil de asimilar, pronto se convirtió en nuestra 
+				principal seña de identidad.<br/> El espíritu por el que se crea <strong>TEXLA</strong> es para poder
+				ofrecer a todos los amantes de la tecnología los mejores componentes a precios asequibles sin renunciar
+				a la calidad ni a un buen servicio postventa. Mantener el carácter del pequeño comercio,
+				la cercanía con el cliente el trato personalizado son las premisas sobre las que gira nuestra 
+				filosofía. Estas máximas nos auparon hasta convertirnos en un referente web de <strong>venta online
+				de coches deportivos electricos</strong> en España. Llegados a este punto, sólo podemos agradecer
+				la confianza depositada en nosotros y el esfuerzo de toda la gente que ha pasado por aquí
+				para hacer que TEXLA© fuera, sea y siga siendo, la tienda de coches eléctricos de referencia 
+				en España. 
+			</p>
+		</div>
+		<div class="nikola">		
+			<img src="imagenes/tesla1.jpg" alt="Nikola Tesla">		
+		</div>
+	</section>		
+		<div class="contacto">
+			<h2>CONTACTO:</h2>
+			<p class="centrarlo">
+				Gmail: texla@gmail.com 
+				<br/><br/>
+				Telefono: +34 911 253 089
+			</p>
+		</div>
+	
+	<footer>
+		<div><p> TEXLA©      |   Daniel Domínguez   Daniel Vera   Javier Gandía   David García   | </p></div>
+	</footer>
+	<script>
+// cuando baja la pagina 250px aparece el boton
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+				document.getElementById("subir").style.display = "block";
+			} else {
+				document.getElementById("subir").style.display = "none";
+			}
+		}
+
+// cuando se pulsa el boton, hace el scroll hacia arriba
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+</html>

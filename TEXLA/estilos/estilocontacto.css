@@ -1,0 +1,55 @@
+body{
+	z-index: 10;
+	padding: 0;
+	font-family: sans-serif;
+	margin-top: 120px;
+	margin-left:20%;
+	margin-right: 20%;
+	background-color: black;
+	color:white;
+	text-align: justify;
+}
+h1{
+	font-family: impact;
+	color:#2DC874;
+	font-size: 40px;
+}
+h2{
+	font-family: impact;
+	color:#2DC874;
+	font-size: 30px;
+}
+.centrarlo{
+	text-align:center;
+}
+.sec1{
+	display: flex;
+	flex-wrap: wrap;
+}
+section.sec1 div img {
+	height: 100%;
+	width: 100%;
+}
+.quiensomos{
+	margin-left:10%;
+	margin-right: 10%;
+	width: 90%;
+}
+.historia{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.tesla{
+	width: 50%;
+}
+.nikola{
+	width: 45%;	
+}
+.contacto{
+margin-top: 5%;	
+}
+
+
+

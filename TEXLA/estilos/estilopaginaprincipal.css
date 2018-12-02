@@ -1,0 +1,24 @@
+body
+{
+	margin: 0;
+	background-color: black;
+	padding: 0;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+section.sec1
+{
+	margin-top: 100px;
+	width:100%;
+}
+section.sec1 div p
+{	
+	color:white;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100%;
+	text-align: center;	
+}

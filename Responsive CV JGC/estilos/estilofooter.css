@@ -6,11 +6,12 @@ footer{
 	align-items: center;
 	text-align: center;
 }
-footer h1
+footer p
 {
 	font-size: 100%;
 	text-align: center;
 	width:100%;
+	color: cyan;
 }
 #subir
 {

@@ -152,4 +152,25 @@
 			</div>
 		</article>
 	</section>
+	<footer>		
+		<div><p>Javier Gandía  CV </p></div>
+	</footer>
+	<script>
+// cuando baja la pagina 250px aparece el boton
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("subir").style.display = "block";
+			} else {
+				document.getElementById("subir").style.display = "none";
+			}
+		}
+
+// cuando se pulsa el boton, hace el scroll hacia arriba
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
 </html>	
